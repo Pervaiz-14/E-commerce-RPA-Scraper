@@ -45,7 +45,7 @@ class SeleniumScraper:
             options.add_argument("--disable-gpu")
             options.add_argument("--no-sandbox")
             options.add_argument("--disable-dev-shm-usage")
-            self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+            self.driver = webdriver.Chrome(options=options)
         except WebDriverException as exc:
             logger.exception("Failed to initialize Selenium WebDriver: %s", exc)
             raise
