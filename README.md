@@ -1,4 +1,4 @@
-# E-commerce RPA Scraper and Google Sheets Uploader
+# E-commerce Product Scraper
 This project scrapes product data from an e-commerce listing page using Selenium, enriches/normalizes prices via a currency conversion API, and uploads results to a Google Sheet using gspread.
 
 Setup
